@@ -1,0 +1,9 @@
+CompileFlags:
+  CompilationDatabase: build-grpc
+  Add:
+    - -Ibuild-grpc/generated
+
+Diagnostics:
+  ClangTidy:
+    Remove:
+      - readability-magic-numbers

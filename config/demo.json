@@ -1,0 +1,22 @@
+{
+  "server_host": "127.0.0.1",
+  "node_a_port": 5001,
+  "node_b_port": 5002,
+  "grpc_port": 50051,
+  "api_key": "dev-local-api-key-change-me",
+  "sensor_hz": 20,
+  "reconnect_delay_ms": 500,
+  "duplicate_precision": 3,
+  "module_log_path": "accel/module.log",
+  "max_samples": 100,
+  "grpc_tls": false,
+  "grpc_mutual_tls": false,
+  "tcp_tls": false,
+  "tcp_mutual_tls": false,
+  "tls_target_name": "localhost",
+  "ca_cert_path": "certs/ca.crt",
+  "server_cert_path": "certs/server.crt",
+  "server_key_path": "certs/server.key",
+  "client_cert_path": "certs/client.crt",
+  "client_key_path": "certs/client.key"
+}
